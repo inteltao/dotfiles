@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/inteltao/.oh-my-zsh
+  export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -89,6 +89,6 @@ alias -s java=vi
 alias -s py=vi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-PATH=/home/inteltao/.local/bin:$PATH
+PATH=~/.local/bin:$PATH
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 . /home/inteltao/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
