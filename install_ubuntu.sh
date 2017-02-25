@@ -9,9 +9,13 @@ apt-get update
 
 #Git installation and basic config
 echo "start to install git"
+echo "please enter your git username: "
+read username
+echo "please enter your git user email: "
+read usermail
 apt-get install git
-git config --global user.name "inteltao"
-git config --global user.email "inteltao7@gmail.com"
+git config --global user.name $username
+git config --global user.email $usermail
 
 if ls ~/.ssh/*.pub 1> /dev/null 2>&1; then
     echo "public key does exist"
