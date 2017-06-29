@@ -4,7 +4,7 @@ filetype off                  " required
 " NerdTree and Tagbar Config
 "------------------------------------------------------------------------------
 autocmd vimenter * NERDTree | wincmd p
-autocmd vimenter * Tagbar
+"autocmd vimenter * Tagbar
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:NERDTreeWinSize=15
 let g:tagbar_width=22
@@ -47,7 +47,10 @@ Bundle 'klen/python-mode'
 Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'mhinz/vim-startify'
 Plugin 'scrooloose/nerdtree'
-Plugin 'majutsushi/tagbar'
+"Plugin 'majutsushi/tagbar'
+Plugin 'josuegaleas/jay'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'fatih/vim-go'
 " The following are examples of different formats supported.
 
 " All of your Plugins must be added before the following line
