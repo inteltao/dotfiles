@@ -29,7 +29,7 @@ echo "done with GIT"
 echo "Install Brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 echo "Install Brew Complete"
-
+brew install Cmake
 
 
 
